@@ -1,0 +1,88 @@
+.loading {
+    width: 50%;
+    height: 50%
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+a {
+    position: relative;
+    padding: 0.5%;
+    transition: all 0.2s ease-in;
+    transition: all 0.9s ease-out;
+    top: 10%;
+}
+
+    a:hover {
+        border-left: 1px;
+        border-right: 2px;
+        border-left-color: #fff;
+        border-left: solid;
+        border-right-color: #fff;
+        border-top-color: #fff;
+        border-right: solid;
+        border-top-style: solid;
+        position: relative;
+        border-top: solid;
+        border-bottom-style: solid;
+        border-bottom-color: #000;
+        border-spacing: 1px;
+        background: #000;
+    }
+
+.full {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.blu {
+    animation: bgColor 5s infinite linear;
+}
+
+@keyframes bgColor {
+    12.5% {
+        color: #FF0000;
+    }
+
+    25% {
+        color:#FFA500;
+    }
+
+    37.5% {
+        color: #FFFF00;
+    }
+
+    50% {
+        color: #7FFF00;
+    }
+
+    62.5% {
+        color: #00FFFF;
+    }
+
+    75% {
+        color: #0000FF;
+    }
+
+    87.5% {
+        color: #9932CC;
+    }
+
+    100% {
+        color: #FF1493;
+    }
+}
+
+.border {
+    border-left:ridge;
+    border-left-color:#fff;
+    border-right:ridge;
+    border-right-color:#fff;
+    width:auto;
+}
